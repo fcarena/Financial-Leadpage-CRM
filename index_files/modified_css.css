@@ -1,0 +1,55 @@
+.jumbotron {
+    background: #266f3a;
+}
+
+h1{
+    color:#f28030
+}
+
+.sidebar{
+    background: #266f3a;
+}
+
+
+#accordion a {
+    color: #f28030;
+}
+
+
+#datetimepicker1,#datetimepicker2{
+    position:absolute;
+    width:200px;
+}
+#next_pay_date,#second_pay_date{
+    margin-top:5px
+}
+
+#datetimepicker1 > i,#datetimepicker2 > i{
+    display:none;
+}
+
+
+.input-group-addon{
+    float:right;
+    margin-top:-55px;
+    margin-right:20px;
+}
+
+@media (max-width:991px){
+    .next_pay_date_container{
+        margin-bottom:50px;
+    }
+
+    .emp_phone_ext_container{
+        margin-top:50px;
+    }
+}
+
+
+@media (max-width:604px){
+    .dob_month_container,.dob_day_container,.dob_year_container{
+        width:100%;
+    }
+
+
+}
